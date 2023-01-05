@@ -1,0 +1,223 @@
+
+/* Top Info Section*/
+.topSection{
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,.10), rgba(0,0,0,.50)),url(https://www.ice.edu/sites/default/files/content/blog-article/header-image/winter%20restaurant%20strategies%20header.jpg);
+    
+    background-size: cover;
+    text-align: left;
+    border-bottom:1px #ccc;
+    border-bottom-style: solid;
+    font-size: calc(10px + 2vmin);
+}
+
+/* Container for Search Bar*/
+.reviewSearchContainer{
+    width: 100%;
+    padding-top: 250px;
+    position: relative;
+    
+}
+
+/* Clear Search Button*/
+.clearSearch{
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: underline;
+    right: 485px;
+    position: absolute;
+}
+
+/* Clear Search Button onHover*/
+.clearSearch:hover{
+    cursor: pointer;
+}
+
+/* Review Search Bar Right Container*/
+.reviewBar{
+    z-index: 1000;
+    position: fixed;
+    background-color: #fafafa;
+    border-bottom:1px #ccc;
+    border-bottom-style: solid;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+}
+
+/* Review Search Bar*/
+.reviewSearchBar{
+    width: 200px;
+    position: absolute;
+    right: 20px;
+}
+
+/* Container for Preselected Searches*/
+.preselectedSearchContainer{
+    width: 255px;
+    position: absolute;
+    right: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/*Preselected Search Objects */
+.preselectedSearch{
+    font-size: .4em;
+    font-weight: 300;
+    width: 75px;
+    border-radius: 15px;
+    height: 25px;
+    background:#eb5b5b;
+    color: white;
+    margin-right: 10px;
+    border:1px #ccc;
+    border-style: solid;
+    line-height: 25px;
+   
+}
+
+/* Preselected Search Object onHover*/
+.preselectedSearch:hover{
+    cursor: pointer;
+    background:#963939;
+}
+
+/* Yelp_e Logo*/
+.yelp_e_return{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 60px;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    color: #000000;
+    position:absolute;
+   
+    width: 120px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+
+    background: #eb5b5b;
+    border-radius: 10px;
+}
+.yelp_e_return:hover{
+    cursor: pointer;
+}
+
+/* Whole App Page Container*/
+.appPage{
+    background-image: none;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Business Name Styling */
+.businessPageName{
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    top: 110px;
+    left: 50.0px;
+    position: absolute;
+    max-inline-size: 80vw;
+    font-weight: 900;
+    
+    font-size: 1.2em;
+
+}
+
+
+/* Container for Both ratings */
+.ratings{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Container for Buisness Hours*/
+.businessHours{
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 1.2em;
+    text-align: right;
+  
+   
+}
+/* Font styling for business hours*/
+.businessHoursHours{
+    font-size: .29em;
+    font-weight: 800;
+}
+
+/* Avegare rating styling*/
+.avgRating{
+
+    padding: 10px;
+    color: white;
+}
+
+/* Recharts chart container*/
+.chartContainer{
+    margin-top: 100px;
+    width: 30vw;
+    height: 40vh;
+    position: fixed;
+    right: 50px;
+}
+
+/* Container for Bottom Half of Page*/
+.LowerPage{
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Container for Review Cards */
+.reviews{
+    margin-top: 80px;
+    background-color: #fff;
+    width: 100%;
+    min-height: 80vh;
+}
+
+/* Recent Review Container */
+.recentRS{
+    margin-left: 10px;
+    line-height: 60px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-size: .7em;
+    
+    height: 60px;
+   
+    border-radius: 10px;
+    
+}

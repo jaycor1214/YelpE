@@ -1,0 +1,64 @@
+
+ /*Overall Review Card*/
+.reviewCard{
+    padding: 1.5vh;
+    min-height:125px;
+    width: 60vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: #eee;
+    border-radius: 10px;
+
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    
+}
+
+/*User info styling*/
+.userInfo{
+    height: 12vh;
+    width: 25vw;
+    
+    
+    text-align: left;
+}
+
+/*Username styling*/
+.userName{
+    font-size: 1.1em;
+    
+}
+
+/*Review Date Styling*/
+.reviewDate{
+    font-size: .8em;
+    margin-top: -2%;
+}
+
+/*Address Styling*/
+
+.reviewLocation{
+    font-size: .8em;
+    margin-top: -2%;
+    
+}
+
+/*Review Body Styling*/
+.reviewText{
+  
+    border-left-color: #ccc;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-size: .69em;
+    padding: 3px;
+    width: 70vw;
+    text-align: left;
+    overflow-wrap: break-word;
+   
+}

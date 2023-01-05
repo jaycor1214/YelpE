@@ -1,0 +1,101 @@
+
+/* Top Bar */
+.topBar{
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    width: 100%;
+    height: 125px;
+    
+    font-size: calc(10px + 2vmin);
+    border-bottom:1px #ccc;
+    border-bottom-style: solid;
+}
+
+/* Parent to top bar  */
+.topParent{
+   position: relative; 
+   height: 100%;
+   width: 100%;
+}
+
+/* Top Bar (flex) for search */
+.topFlex{
+    height: 125px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+/*Yelp_e logo*/
+.yelp_e_return_result{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 60px;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    color: #000000;
+    position:absolute;
+   
+    width: 120px;
+    height: 60px;
+    top: 32.5px;
+    left: 32.5px;
+
+    background: #eb5b5b;
+    border-radius: 10px;
+}
+.yelp_e_return_result:hover{
+    cursor: pointer;
+}
+
+/*Search Bar styling*/
+.topSearch{
+    width: 60%;
+    max-width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+/* Container for BusinessCard Results*/
+.resultDisplay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 100%;
+    min-height: 90vh;
+}
+
+/*Dropdown for sort*/
+.sortDropdown.dropdown{
+    bottom: 2px;
+    right: 25px;
+    display:block;
+    position: absolute;
+    
+}
+
+/*Whole Page */
+.appPage{
+    font-size: calc(10px + 2vmin);
+    background-image: none;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+

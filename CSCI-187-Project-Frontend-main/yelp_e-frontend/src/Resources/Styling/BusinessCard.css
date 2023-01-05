@@ -1,0 +1,115 @@
+/*Overall Styling*/
+.businessCard {
+  height: 200px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: calc(10px + 2vmin);
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  align-items: center;
+  width: 1200px;
+  max-width: 90vw;
+}
+
+.businessCard:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+/*Name Styling*/
+.businessName {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+/*Rating Styling*/
+.businessRating {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+}
+.stars {
+  max-height: 10px;
+}
+
+/*Total amountof reviews styling*/
+.totalRatings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 17px;
+  color: #777;
+}
+
+/*Address Styling*/
+.businessAddress {
+  font-size: 0.7em;
+}
+
+/*Container for Text*/
+.middletext {
+  width: 600px;
+  padding: 2vh;
+  text-align: left;
+}
+
+/*RRC styling*/
+.rrcScore {
+  padding-right: 10px;
+  width: auto;
+}
+
+/*RRC total styling*/
+.rrcTotal {
+  color: #777;
+  font-weight: lighter;
+}
+
+/*container for RRC*/
+.rrcbox {
+  padding: 2vh;
+  width: 350px;
+  max-width: 40vw;
+  display: flex; /* establish flex container */
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Other Container for RRC*/
+.rrc {
+  padding-left: 20px;
+  font-size: 0.5em;
+  font-weight: bold;
+  align-items: center;
+  width: 300px;
+  max-width: 40vw;
+  display: flex; /* establish flex container */
+  flex-direction: row;
+  height: 50px;
+  background: #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 5vh;
+}
+
+/*Left Picture*/
+
+.leftpicture {
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  border-radius: 10px;
+  background-image: url(https://media.istockphoto.com/photos/3d-render-of-luxury-business-interior-picture-id1079901206?k=20&m=1079901206&s=612x612&w=0&h=hbMrgWZzoO9zncJ_ZU2xUqVt0oGfPyAbv9FxhCm04EI=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
