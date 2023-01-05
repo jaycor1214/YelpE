@@ -1,0 +1,2 @@
+Screenshots were collected using data from all restaurants within Santa Barbara, CA. 
+Displays hours, name, score, recent review score, and score over time graph. 
